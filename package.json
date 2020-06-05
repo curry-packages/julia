@@ -1,0 +1,26 @@
+{
+    "name": "julia",
+    "version": "0.0.1",
+    "author": "Michael Hanus <mh@informatik.uni-kiel.de>",
+    "synopsis": "Libraries to represent Julia programs in Curry",
+    "category": [ "Metaprogramming" ],
+    "license": "BSD-3-Clause",
+    "licenseFile": "LICENSE",
+    "dependencies": {
+        "base"      : ">= 1.0.0, < 2.0.0",
+        "wl-pprint" : ">= 0.0.1"
+    },
+    "dependencies": {
+    },
+    "compilerCompatibility": {
+        "pakcs": ">= 2.0.0, < 3.0.0",
+        "kics2": ">= 2.0.0, < 3.0.0"
+    },
+    "exportedModules": [ "Julia.Types", "Julia.Pretty" ],
+    "license": "BSD-3-Clause",
+    "licenseFile": "LICENSE",
+    "source": {
+        "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/julia.git",
+        "tag": "$version"
+    }
+}
