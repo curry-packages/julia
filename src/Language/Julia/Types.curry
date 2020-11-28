@@ -2,10 +2,10 @@
 --- A library to represent a subset of Julia programs.
 ---
 --- @author Michael Hanus
---- @version June 2020
+--- @version November 2020
 ------------------------------------------------------------------------------
 
-module Julia.Types
+module Language.Julia.Types
  where
 
 ------------------------------------------------------------------------------

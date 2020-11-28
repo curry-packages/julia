@@ -16,8 +16,8 @@
 
 import Text.Pretty  ( pPrint )
 
-import Julia.Pretty ( ppScript )
-import Julia.Types
+import Language.Julia.Pretty ( ppScript )
+import Language.Julia.Types
 
 --- Generate the factorial function.
 jlFac :: JLTop

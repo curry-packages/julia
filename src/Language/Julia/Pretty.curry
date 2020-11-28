@@ -2,14 +2,16 @@
 --- This module contains a pretty printer for Julia programs.
 ---
 --- @author Michael Hanus
---- @version June 2020
+--- @version November 2020
 ------------------------------------------------------------------------------
 
-module Julia.Pretty where
+module Language.Julia.Pretty where
+
+import Prelude hiding ( empty )
 
 import Text.Pretty
 
-import Julia.Types
+import Language.Julia.Types
 
 --- Pretty print a Julia type.
 ppType :: JLType -> Doc
