@@ -12,7 +12,7 @@
     },
     "exportedModules": [ "Language.Julia.Types", "Language.Julia.Pretty" ],
     "source": {
-        "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/julia.git",
+        "git": "https://github.com/curry-packages/julia.git",
         "tag": "$version"
     }
 }
